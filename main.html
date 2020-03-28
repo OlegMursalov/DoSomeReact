@@ -22,6 +22,13 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="watch">
+                        <!-- Часы! -->
+                    </div>
+                </div>
+            </div>
         </div>
         
         <script src="js/jquery/jquery-3.4.1.min.js"></script>
@@ -36,6 +43,11 @@
         <script src="js/main.js"></script>
         
         <script type="text/babel">
+            ReactDOM.render(
+                React.createElement(MainCustomLogic.clockComponent),
+                document.getElementsByClassName('watch')[0]
+            );
+
             var TextAreaCounter = React.createClass({
                 propTypes: {
                     text: React.PropTypes.string,
