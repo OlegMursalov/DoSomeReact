@@ -72,4 +72,4 @@ MainCustomLogic = {
     }
 }
 
-MainCustomLogic.initialize();
+// MainCustomLogic.initialize();
